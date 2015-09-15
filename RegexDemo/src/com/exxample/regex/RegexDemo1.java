@@ -10,8 +10,10 @@ import java.util.Scanner;
  */
 public class RegexDemo1 {
 	public static void main(String[] args) {
-		String regex = "[1-9][0-9]{4,14}";
-
+		//String regex = "[1-9][0-9]{4,14}";
+		
+		//进一步的使用, 正则的\d 要用字符串\\d
+		String regex = "[1-9]\\d{4,14}";
 		Scanner sc = new Scanner(System.in);
 		while (true) {
 			System.out.println("请输入:");
