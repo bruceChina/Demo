@@ -7,7 +7,9 @@ package com.exxample.regex;
 public class RegexDemo6 {
 	public static void main(String[] args) {
 		String string = "assdfffgghveggs";
-		String regex = "(.)\\1+";
+		//这个是3次及以上
+		String regex = "(.)\\1{2,}";
+		//String regex = "(.)\\1+";
 		String[] splits = string.split(regex);
 		System.out.println(splits.length);
 		for (String split : splits) {
