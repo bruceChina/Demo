@@ -25,5 +25,7 @@ public class RegexDemo5 {
 			System.out.println("input:");
 			string = sc.nextLine();
 		}
+		
+		sc.close();
 	}
 }
