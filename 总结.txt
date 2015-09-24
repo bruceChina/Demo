@@ -71,6 +71,12 @@ TCP/IP4层模型 应用层 传输层 网际层 物理层
 UDP 发送包的目的地由DatagramPacket决定
 UDP 接收端的端口由DatagramSocket决定
 
+使用writer 的时候记得flush
+
+创建多线程的两种办法
+1 继承Thread 类 
+2 实现Runable 接口
+
 
 
 
