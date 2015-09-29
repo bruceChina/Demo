@@ -1,0 +1,3 @@
+Õâ¸öSystem.err
+Exception in thread "main" java.lang.NullPointerException
+	at com.example.system.SystemDemo1.main(SystemDemo1.java:24)
